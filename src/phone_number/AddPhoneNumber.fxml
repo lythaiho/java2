@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="phone_number.NewPhoneNumber" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="178.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add To Phone Number">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tfPhone" layoutX="150.0" layoutY="94.0" prefHeight="39.0" prefWidth="295.0" promptText="Phone">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfPhoneNumber" layoutX="152.0" layoutY="161.0" prefHeight="39.0" prefWidth="295.0" promptText="Number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button onAction="#SubmitPhoneNumber" layoutX="248.0" layoutY="235.0" mnemonicParsing="false" text="Submit">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

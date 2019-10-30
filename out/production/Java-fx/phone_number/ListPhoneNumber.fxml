@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<Pane fx:controller="phone_number.ListPhoneNumber" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tbView" layoutX="29.0" layoutY="54.0" prefHeight="239.0" prefWidth="541.0">
+        <columns>
+          <TableColumn fx:id="tcName" prefWidth="263.0" text="Name" />
+          <TableColumn fx:id="tcPhoneNumber" minWidth="0.0" prefWidth="277.0" text="PhoneNumber" />
+        </columns>
+      </TableView>
+      <Button onAction="#addPhoneNumber" layoutX="36.0" layoutY="324.0" mnemonicParsing="false" text="Add to Phone" />
+      <Text layoutX="182.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List Phone Number">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Button onAction="#sortAZ" layoutX="309.0" layoutY="324.0" mnemonicParsing="false" text="Sort A-Z" />
+      <Button onAction="#sortZA" layoutX="445.0" layoutY="324.0" mnemonicParsing="false" text="Sort Z-A" />
+   </children>
+</Pane>

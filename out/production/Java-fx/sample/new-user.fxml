@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="sample.NewUser" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fx:id="newUser" layoutX="245.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New User">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <TextField fx:id="newName" layoutX="136.0" layoutY="85.0" prefHeight="25.0" prefWidth="307.0" promptText="Name" />
+      <TextField fx:id="newEmail" layoutX="136.0" layoutY="128.0" prefHeight="25.0" prefWidth="307.0" promptText="Email" />
+      <TextField fx:id="newAge" layoutX="136.0" layoutY="175.0" prefHeight="25.0" prefWidth="307.0" promptText="Age" />
+      <TextArea fx:id="newAddress" layoutX="136.0" layoutY="211.0" prefHeight="71.0" prefWidth="307.0" promptText="Address" />
+      <ToggleButton onAction="#submitUser" layoutX="263.0" layoutY="303.0" mnemonicParsing="false" text="Submit" />
+   </children>
+</Pane>
