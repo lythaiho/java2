@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane fx:controller="sample.ListUser" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tbView" editable="true" layoutX="19.0" layoutY="54.0" prefHeight="200.0" prefWidth="567.0">
+        <columns>
+          <TableColumn fx:id="tbcFullName" prefWidth="201.0" text="Full Name" />
+          <TableColumn fx:id="tbcEmail" prefWidth="128.0" text="Email" />
+            <TableColumn fx:id="tbcAge" prefWidth="91.0" text="Age" />
+            <TableColumn fx:id="tbcAddress" prefWidth="146.0" text="Address" />
+        </columns>
+      </TableView>
+      <Button onAction="#addUser" layoutX="54.0" layoutY="340.0" mnemonicParsing="false" text="Add user" />
+   </children>
+</Pane>
