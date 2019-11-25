@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="jv2_assignment6.ThongTinThueBao" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="118.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thong tin lien he" textAlignment="CENTER" wrappingWidth="364.205078125">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <TableView fx:id="tbView" layoutX="100.0" layoutY="85.0" prefHeight="200.0" prefWidth="470.0">
+        <columns>
+            <TableColumn fx:id="idContact" prefWidth="84.0" text="Id nguoi dung" />
+          <TableColumn fx:id="soDienThoai" prefWidth="116.0" text="So dien thoai" />
+          <TableColumn fx:id="loaiSo" prefWidth="131.0" text="Loai so" />
+        </columns>
+      </TableView>
+      <Button onAction="#ContactList" layoutX="289.0" layoutY="312.0" mnemonicParsing="false" text="Submit" />
+   </children>
+</Pane>

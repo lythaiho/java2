@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="jv2_assignment6.DanhBaDienThoai" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="121.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Danh Ba DienThoai" textAlignment="CENTER" wrappingWidth="357.13671875">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <TableView fx:id="tbView" layoutX="13.0" layoutY="113.0" prefHeight="200.0" prefWidth="583.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="47.0" text="Id" />
+          <TableColumn fx:id="tenNguoiDung" prefWidth="128.0" text="Ten Nguoi Dung" />
+            <TableColumn fx:id="tenCongTy" prefWidth="119.0" text="Ten Cong Ty" />
+            <TableColumn fx:id="diaChi" prefWidth="168.0" text="Dia chi" />
+        </columns>
+      </TableView>
+       <Button onAction="#ContactInfo" layoutX="289.0" layoutY="312.0" mnemonicParsing="false" text="Submit" />
+   </children>
+</Pane>

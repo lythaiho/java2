@@ -7,23 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jv2_Session2/DemoFileHandLing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_Session2/Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_Session2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_Session2/SieuNhanCap1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_Session2/SieuNhanCap2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_Session2/SieuNhanCap3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_Session2/SieuNhanCap4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_Session2/SieuNhanHetThoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_Session2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_Session2/Xmen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_assignment3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_assignment3/Timer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_assignment3/timer.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_ss3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_ss3/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_ss3/Subthread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jv2_ss3/Subthread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Connector/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_assignment6/ContactInfo.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_assignment6/ContactInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_assignment6/ContactList.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_assignment6/ContactList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_assignment6/DIenThoai.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_assignment6/DanhBa.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_assignment6/DanhBaDienThoai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_assignment6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_assignment6/ThongTinThueBao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession3/SubThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession5/ListStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession5/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession5/add.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession5/table.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession6/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession6/ContactDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession6/ContactList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession6/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession6/contact.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labsession6/detail.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labss4/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labss4/BankDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labss4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_labss4/SoNguyenTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_session4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_session4/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jv2_session5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,8 +94,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaFXApplication" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Kotlin Interface" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,7 +111,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1SbFC4Ka4OerTqoWwUi9Kd436TS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -110,8 +128,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="D:/java/java" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -121,6 +139,7 @@
       <recent name="D:\Java-fx\src\sample" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java-fx\java2\src\jv2_assignment6" />
       <recent name="D:\Java-fx\java2\src\assignment8" />
       <recent name="D:\Java-fx\src\phone_number" />
       <recent name="D:\Java-fx\src\sample" />
@@ -138,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -157,27 +176,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoFileHandLing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jv2_Session2.DemoFileHandLing" />
-      <module name="Java-fx" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jv2_Session2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="phone_number.Main" />
+      <option name="MAIN_CLASS_NAME" value="jv2_session4.Main" />
       <module name="Java-fx" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="phone_number.*" />
+          <option name="PATTERN" value="jv2_session4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +191,12 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jv2_Session2.Main" />
+      <option name="MAIN_CLASS_NAME" value="jv2_session5.Main" />
       <module name="Java-fx" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jv2_Session2.*" />
+          <option name="PATTERN" value="jv2_session5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +205,12 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jv2_ss3.Main" />
+      <option name="MAIN_CLASS_NAME" value="jv2_labsession6.Main" />
       <module name="Java-fx" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jv2_ss3.*" />
+          <option name="PATTERN" value="jv2_labsession6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,12 +219,26 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jv2_assignment3.Main" />
+      <option name="MAIN_CLASS_NAME" value="jv2_assignment6.Main" />
       <module name="Java-fx" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jv2_assignment3.*" />
+          <option name="PATTERN" value="jv2_assignment6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jv2_labsession3.Main" />
+      <module name="Java-fx" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jv2_labsession3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.DemoFileHandLing" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +330,16 @@
       <workItem from="1572422638383" duration="1482000" />
       <workItem from="1572592511699" duration="8008000" />
       <workItem from="1572852342095" duration="4019000" />
-      <workItem from="1573023555115" duration="1851000" />
+      <workItem from="1573023555115" duration="5046000" />
+      <workItem from="1573034024018" duration="1105000" />
+      <workItem from="1573195612857" duration="9086000" />
+      <workItem from="1573454715907" duration="9841000" />
+      <workItem from="1573470123199" duration="1236000" />
+      <workItem from="1573473659409" duration="21000" />
+      <workItem from="1573475500758" duration="653000" />
+      <workItem from="1573627505507" duration="3148000" />
+      <workItem from="1573801388601" duration="5078000" />
+      <workItem from="1574658026917" duration="174000" />
     </task>
     <servers />
   </component>
@@ -342,6 +370,11 @@
           <url>file://$PROJECT_DIR$/src/jv2_ss3/Main.java</url>
           <line>2</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/jv2_assignment6/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
